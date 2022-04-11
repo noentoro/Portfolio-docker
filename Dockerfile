@@ -1,5 +1,5 @@
 # Download koel's released archive
-FROM alpine:3.14.2 as release-downloader
+FROM alpine:3.15.4 as release-downloader
 
 # The koel version to download
 ARG PORTFOLIO_VERSION_REF=v0.1.0
