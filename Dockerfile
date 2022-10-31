@@ -37,7 +37,7 @@ RUN curl -L https://github.com/knightybird/InventoryDB_laravel/releases/download
     yarn.lock
 
 # The runtime image.
-FROM php:7.4.25-apache-buster
+FROM php:8.1.12-apache-buster
 
 # Install koel runtime dependencies.
 RUN apt-get update \
